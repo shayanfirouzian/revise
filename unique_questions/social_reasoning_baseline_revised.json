@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "dataset_file": "/media/external20/shayan_firouzian/most_preferred.jsonl",
+    "dataset_file": "most_preferred.jsonl",
     "n_examples_total": 393,
     "sampling_method": "simple_random_sampling_without_replacement",
     "sampling_seed": 42,
@@ -20,7 +20,7 @@
     "long_sequence_policy": "No truncation. Sequences exceeding the usable context are scored by sliding windows; each next-token target is counted once."
   },
   "model_results": {
-    "/media/external20/shayan_firouzian/Qwen3-8B": {
+    "Qwen3-8B": {
       "question_ids": [
         "46284dff94b39ce3f0cc5cc9f3c554b3d59420131d8adb6fbb40836fb11707e6",
         "478b57208b3f2c43e8d58d3c2de3aeb636b09f932bae06a0031a06718a28cf66",
@@ -820,7 +820,7 @@
       "max_tokenized_sequence_length": 553,
       "context_limit_tokens": 40960
     },
-    "/media/external20/shayan_firouzian/Qwen3-8B-Base": {
+    "Qwen3-8B-Base": {
       "question_ids": [
         "46284dff94b39ce3f0cc5cc9f3c554b3d59420131d8adb6fbb40836fb11707e6",
         "478b57208b3f2c43e8d58d3c2de3aeb636b09f932bae06a0031a06718a28cf66",
@@ -1620,7 +1620,7 @@
       "max_tokenized_sequence_length": 553,
       "context_limit_tokens": 32768
     },
-    "/media/external20/shayan_firouzian/llama-3.1-8b-base": {
+    "llama-3.1-8b-base": {
       "question_ids": [
         "46284dff94b39ce3f0cc5cc9f3c554b3d59420131d8adb6fbb40836fb11707e6",
         "478b57208b3f2c43e8d58d3c2de3aeb636b09f932bae06a0031a06718a28cf66",
@@ -2420,7 +2420,7 @@
       "max_tokenized_sequence_length": 554,
       "context_limit_tokens": 131072
     },
-    "/media/external20/shayan_firouzian/llama-3.1-8B-instruct": {
+    "llama-3.1-8B-instruct": {
       "question_ids": [
         "46284dff94b39ce3f0cc5cc9f3c554b3d59420131d8adb6fbb40836fb11707e6",
         "478b57208b3f2c43e8d58d3c2de3aeb636b09f932bae06a0031a06718a28cf66",
